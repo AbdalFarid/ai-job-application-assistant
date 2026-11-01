@@ -1,6 +1,6 @@
 # AI Job Application Assistant
 
-A Streamlit web application that helps job seekers compare their resume with a job description using Generative AI. Upload a PDF resume, paste a target job posting, and receive a structured match analysis powered by the Groq API.
+A Streamlit web application that helps job seekers compare their resume with a job description using Generative AI. Upload a PDF or DOCX resume, paste a target job posting, and receive a structured match analysis and a tailored cover letter powered by the Groq API.
 
 ## Problem Statement
 
@@ -8,31 +8,44 @@ Applying for jobs often means rewriting a resume and preparing for interviews wi
 
 ## Main Features
 
-- Upload a PDF resume and extract text locally with `pypdf`
+- Upload a **PDF or DOCX** resume and extract the text locally (`pypdf` for PDF, `python-docx` for DOCX, including text stored in tables)
 - Paste a job description for comparison
 - Request AI analysis with a single **Analyze Application** button
-- Receive a structured AI analysis dashboard with match score, matching skills, missing skills, relevant experience, suggestions, a tailored professional summary, and interview questions
-- Keep the last successful analysis visible across Streamlit reruns using session state
-- Download the analysis as Markdown and, when parsing succeeds, as JSON
-- Fall back to the original Groq response if structured JSON parsing fails
+- Get a **weighted match score** calculated in Python (not by the AI), based on four categories:
+  - Technical Skills (40%)
+  - Experience & Projects (30%)
+  - Education & Qualifications (15%)
+  - Responsibilities Alignment (15%)
+- Review a structured dashboard with category evidence, matching skills, missing or unclear skills, relevant experience, improvement suggestions, a tailored professional summary, and interview questions
+- Generate an **AI cover letter** from your resume and the job description, with an optional company name and job title and a choice of tone (Professional, Formal or Confident)
+- Edit the cover letter in the app, then download it as **DOCX** or **TXT**
+- Keep results visible across Streamlit reruns using session state; old results are cleared automatically when you upload a different resume or change the job description
+- Download the analysis as a Markdown report and as JSON
+- Handle problems gracefully: encrypted or scanned PDFs, corrupted files, cut-off AI responses, invalid JSON, and API errors (authentication and rate limits) all show clear messages
 - Load the Groq API key securely from a local `.env` file
+
+## Honesty by Design
+
+The prompts instruct the AI to use only facts found in the resume and never invent skills, experience, education or projects. Missing skills mean "not clearly demonstrated", not "definitely absent". AI output can still contain mistakes, so always review the analysis and edit the cover letter before using it.
 
 ## Technologies Used
 
 - **Python**
-- **Streamlit** — web UI and session-state persistence
-- **Groq API** (`groq`) — Generative AI analysis
-- **pypdf** — local PDF text extraction
-- **python-dotenv** — environment variable loading for the API key
+- **Streamlit**: web UI and session-state persistence
+- **Groq API** (`groq`): Generative AI analysis and cover letter writing (model: `openai/gpt-oss-20b`)
+- **pypdf**: local PDF text extraction
+- **python-docx**: local DOCX text extraction and cover letter DOCX export
+- **python-dotenv**: environment variable loading for the API key
 
 ## How the Application Works
 
-1. The user uploads a resume PDF. Text is extracted on the local machine.
+1. The user uploads a resume (PDF or DOCX). Text is extracted on the local machine.
 2. The user pastes a job description into a text area.
-3. When the user clicks **Analyze Application**, the app validates inputs and sends the extracted resume text and job description to Groq.
-4. Groq returns a JSON analysis. The app stores both the raw response and the parsed result in Streamlit session state, then shows a dashboard in the UI.
-5. If JSON parsing fails, the original response is shown as Markdown so the app does not break.
-6. The user can download the analysis or continue interacting with the app without triggering another API call until they click **Analyze Application** again.
+3. When the user clicks **Analyze Application**, the app validates the inputs and sends the resume text and job description to Groq.
+4. Groq returns a JSON analysis with a 0 / 50 / 100 score for each category. The app calculates the final weighted score in Python, stores the result in Streamlit session state, and shows the dashboard.
+5. If the response is cut off or is not valid JSON, the app explains the problem instead of breaking.
+6. The user can optionally enter a company name, job title and tone, then click **Generate Cover Letter**. The letter appears in an editable box and can be downloaded as DOCX or TXT.
+7. Results stay on screen without extra API calls until the user clicks a generate button again.
 
 ## Installation (Windows)
 
@@ -85,6 +98,24 @@ streamlit run app.py
 
 Then open the local URL shown in the terminal (usually `http://localhost:8501`).
 
+## Project Structure
+
+```text
+AI-Job-Application-Assistant/
+├── app.py             # Streamlit app: extraction, AI calls, dashboard, cover letter
+├── requirements.txt   # Python dependencies
+├── README.md          # Project documentation
+├── .gitignore         # Keeps .env, virtual environments and cache files out of Git
+└── .env               # Your private Groq API key (local only, never committed)
+```
+
+## Limitations
+
+- Scanned or image-only resumes are not supported because the app does not use OCR. Upload a text-based PDF or DOCX.
+- Only the first 18,000 characters of the resume and the first 10,000 characters of the job description are sent to the AI.
+- The match score is an AI-assisted estimate. It does not predict hiring outcomes.
+- AI-generated text can contain errors. Review everything before sending it to an employer.
+
 ## Privacy Note
 
-Your resume PDF is processed locally for text extraction. Extracted resume text and the job description are sent to Groq **only when you explicitly click Analyze Application**. The Groq API key is stored in a local `.env` file and should never be committed to Git.
+Your resume file is processed locally for text extraction. The extracted resume text and the job description are sent to Groq **only when you explicitly click Analyze Application or Generate Cover Letter**. The Groq API key is stored in a local `.env` file and should never be committed to Git.
