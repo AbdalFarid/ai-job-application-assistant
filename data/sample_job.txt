@@ -1,0 +1,322 @@
+Responsibilities
+Collaborate with team leadership to identify opportunities for process improvement, automation, and operational efficiency
+Design, develop, and implement internal applications and tools to streamline workflows
+Explore and integrate AI/ML capabilities into existing or new business processes
+Build prototypes and proof-of-concept solutions using modern development technologies
+Work with APIs, databases, and automation tools to connect systems and improve data accessibility
+Evaluate emerging AI technologies, including Generative AI and Large Language Models (LLMs), for potential business applications
+Test, troubleshoot, document, and continuously improve developed solutions
+Participate in project planning, brainstorming, and technical discussions
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Python
+JavaScript
+Artificial Intelligence and Machine Learning
+Generative AI and Large Language Models
+OpenAI APIs
+LangChain
+Web Application Development
+SQL
+REST APIs
+Git
+GitHub
+Workflow Automation
+Required
+Currently pursuing or recently completed a Bachelor's or Master's degree in Computer Science, Artificial Intelligence, or a related technical field
+Programming experience with Python, JavaScript, or a similar language
+Foundational understanding of software development concepts and problem-solving techniques
+Interest in AI/ML, automation, and building practical technology solutions
+Ability to work independently, learn new technologies quickly, and collaborate with cross-functional teams
+Strong communication, analytical, and organizational skills
+Preferred
+Academic or project experience with AI/ML, Generative AI, or LLM-based applications
+Familiarity with AI development tools, APIs, or frameworks such as OpenAI APIs, LangChain, or similar technologies
+Experience developing web applications, internal dashboards, or workflow automation tools
+Knowledge of SQL, databases, REST APIs, or cloud platforms
+Experience with Git, GitHub, or collaborative software development
+Personal projects, hackathons, or internships demonstrating hands-on technical skills
+
+
+
+Responsibilities
+Develop frontend components or backend services for an application, internal tool or product demonstration
+Build APIs and connect databases or data workflows, with attention to validation and error handling
+Write automated tests, debug failures and improve performance using logs and reproducible examples
+Participate in code reviews, document technical decisions and collaborate with product and engineering partners
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Python
+TypeScript
+JavaScript
+Go
+C++
+Data Structures
+API Development
+Git
+Software Testing
+MCP Integrations
+React
+SQL
+Required
+Pursuing or recently completed a bachelor's or master's degree in Computer Science, Software Engineering, Computer Engineering or a related field
+Strong programming ability in Python, TypeScript, JavaScript, Go or C++, demonstrated through a project you can explain in depth
+Understanding of data structures, APIs and databases, with experience using Git and testing your own code
+Experience using AI coding tools, including agent harnesses, skills and MCP integrations, while reviewing and testing the code they produce
+Ability to investigate unfamiliar problems, explain tradeoffs and improve your work through feedback
+Preferred
+Experience with React, Node.js, FastAPI, SQL, Docker or cloud deployment
+Exposure to ML integration or IoT data is useful; depth in one working project matters more than a long tool list
+
+
+
+
+Responsibilities
+Design, develop, test, and continuously optimize enterprise AI Agents
+Build capabilities such as task planning, tool calling, and workflow orchestration using large language models
+Integrate AI Agents with enterprise systems, including ERP, CRM, OA, supply chain, and order management systems, to automate cross-system business processes
+Develop and optimize enterprise system interfaces and Agent tools
+Collaborate with product and business teams to deploy AI Agent solutions in real-world enterprise scenarios
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Java
+Python
+Large Language Model (LLM) Application Development
+Prompt Engineering
+Function Calling
+LangGraph
+Agent Scope
+API Integration
+Microservices
+System Design
+Mandarin Chinese
+Required
+Master's degree or above in Computer Science, Artificial Intelligence, Software Engineering, or a related field
+Understanding of software engineering fundamentals and proficiency in Java and Python
+Experience in large language model application development, with an understanding of prompt engineering and function calling
+Hands-on experience with Agent development frameworks, particularly LangGraph and Agent Scope
+Familiarity with APIs, databases, microservices, and common enterprise system integration methods
+Strong system design, problem-solving, communication, and collaboration skills
+Fluency in Mandarin Chinese and English to collaborate effectively with internal and external stakeholders
+
+
+
+
+Responsibilities
+Define the functional requirements (BRDs, user stories, workflow maps) and operating models for a plug-and-play agentic framework. Help structure standardized skill layers (e.g., modular skills.md configurations) that allow additional teams to customize agent intake, business logic, and persona instructions without altering core code
+Conduct qualitative research and workflow analysis with our partners (Architecture, Engineering, QA, Fan Care Operations, and Support) to uncover pain points and high-value automation opportunities
+Help translate business and operational needs into relevant backlog items for engineering teams building and refining AI agents
+Develop documentation, playbooks, and best-practice guides to foster adoption and seamless integration of agentic workflows across Fan Care service delivery teams
+Establish benchmarks to evaluate output accuracy, token efficiency, and productivity gains across different teams adopting the modular agentic framework
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Agentic AI Architecture
+LLM Frameworks and APIs
+Retrieval-Augmented Generation (RAG)
+Agile Methodologies
+Business Requirements Documentation
+Feature Prioritization
+Jira
+Confluence
+API Integration
+Workflow Analysis
+Prompt Orchestration
+Contextual Memory Management
+Verbal and written communication
+Analytical problem-solving
+Preferred
+Currently enrolled in a Bachelor's Degree granting program preferrable in Computer Science, Information Systems, Business Administration, Human-Computer Interaction, Artificial Intelligence, Product Management or a related field with an anticipated graduation date no earlier than December 2027
+Conceptual knowledge about Agentic AI architecture (e.g., autonomous agents, tool usage, prompt orchestration, memory models, multi-agent frameworks)
+Familiarity with functional planning and delivery processes (Agile methodologies, user personas, business requirement documents, feature prioritization)
+Curiosity about enterprise software development lifecycles (SDLC), customer experience platforms, and modern IT operations
+Excellent analytical, problem-solving, collaboration, and verbal/written communication skills, with the ability to work effectively across technical and non-technical teams
+Hands-on experience with LLM frameworks, APIs, or agent builders (e.g., LangChain, AutoGen, CrewAI, OpenAI APIs, Google Gemini Enterprise)
+Experience with markdown-driven agent prompt architectures, contextual memory management, or RAG systems
+Familiarity with enterprise workflow tools (Jira, Confluence) and API/integration concepts
+
+
+
+
+Responsibilities
+Collaborate with technical and business or program stakeholders to understand user needs, workflows, requirements, assumptions, constraints, and success criteria
+Write, test, and maintain code or scripts to support data processing, AI applications, integrations, automation, validation, or reporting
+Prepare and evaluate approved datasets, investigate missing or inconsistent information, and document data sources and processing steps
+Help prototype AI-enabled solutions using approved models, APIs, cloud services, low-code tools, or related technologies
+Create test cases and evaluate results against source data, expected outcomes, control requirements, or established baselines; record errors, risks, and limitations
+Support responsible AI, privacy, security, and governance practices, including appropriate data access, human review, documentation, and use of approved tools
+Use version control and team development practices to organize code, configuration, documentation, and incremental changes
+Prepare clear technical documentation, runbooks, demonstrations, analyses, or presentations so others can understand, reproduce, and build on the work
+Participate in project check-ins and reviews, communicate progress and blockers, track assigned work, and incorporate feedback
+Recommend practical improvements to workflows, tools, controls, data quality, testing, or user experience
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Python
+PowerShell
+JavaScript
+SQL
+Artificial Intelligence and Machine Learning
+Large Language Models
+Data Engineering
+JSON
+YAML
+APIs
+Microsoft Azure
+Microsoft Power BI
+Git
+Responsible AI and Data Governance
+Required
+30-completed college credit hours by start date in computer science, data science, information systems, engineering, analytics, cybersecurity, or a related field
+Preferred
+A completed bachelor's degree and enrollment verification or 9 credit hours completed in a graduate program related to computer science, data science, information systems, engineering, analytics, cybersecurity, or a related field
+Experience with programming or scripting languages such as Python, PowerShell, JavaScript, SQL, or comparable languages, including experience with scripting, data manipulation, querying, analysis, or reusable code development
+Experience completing technical projects involving coding, data, artificial intelligence, automation, cloud technology, or systems work through coursework, personal projects, research, internships, or other applied experience
+Familiarity with databases, data schemas, data pipelines, and extract, transform, and load processes, as well as structured configuration formats such as JSON and YAML
+Exposure to artificial intelligence and machine learning concepts, including large language model applications, agentic workflows, computer vision, natural language processing, or model evaluation
+Familiarity with APIs, cloud platforms, enterprise data tools, low-code platforms, workflow automation, or business intelligence tools such as Azure, Power Platform, or Power BI
+Experience using Git, Claude Code, or another version-control system, including familiarity with collaborative development, code review, or other review-based workflows
+Knowledge of or interest in responsible AI, data privacy, information security, identity and access management, data classification, and AI or data governance
+Strong analytical and problem-solving skills, including the ability to test assumptions, evaluate technical outputs, identify limitations, and review work for accuracy and completeness
+Strong written and verbal communication skills, including the ability to document technical work, communicate progress or changes, and explain technical concepts to both technical and nontechnical audiences
+Effective organization and time management skills, with the ability to prioritize work, manage defined assignments, meet agreed deadlines, ask thoughtful questions, and seek guidance or communicate blockers when needed
+Ability to work independently while collaborating effectively with distributed, cross-functional teams
+A practical and adaptable approach to learning and problem-solving, including openness to feedback, willingness to revise work, and interest in learning unfamiliar tools, technologies, or business domains
+Professional judgment when working with data, technical tools, documentation, and AI-generated outputs, including an understanding of appropriate review, accuracy, privacy, security, and governance considerations
+
+
+
+
+Responsibilities
+Assist in developing and fine-tuning large language models (LLMs) to better understand and generate instructions for complex tasks. You’ll experiment with model parameters and training data to improve performance
+Build and integrate AI-driven features that improve task delegation workflows – for example, creating intelligent agents that break down client requests into actionable steps for our team
+Collaborate with senior AI engineers to prototype systems that use AI for agentic workflows, enabling the platform to automatically handle or delegate routine instructions
+Support the development of AI agentic components such as task planning, tool use, memory, prompt workflows, and orchestration logic to help agents operate more effectively in real-world scenarios
+Evaluate model outputs for accuracy and usefulness. Develop tests and metrics to assess how well the AI-generated instructions or recommendations are performing in real-world scenarios
+Help build lightweight evaluation harnesses and experiments to test agent behavior, workflow reliability, and the quality of AI-generated task execution
+Work cross-functionally with product and software engineers to implement AI solutions into the Athena platform. Communicate technical findings and iterate on solutions based on user feedback
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Python
+Machine Learning
+Artificial Intelligence
+Natural Language Processing
+Large Language Models
+TensorFlow
+PyTorch
+Data Structures
+Algorithms
+Model Training
+Model Fine-tuning
+Model Evaluation
+AI Agentic Systems
+Prompt Design
+Workflow Orchestration
+Break down complex problems
+Eagerness to learn new technologies
+Required
+Currently pursuing (or recently completed) a degree in Computer Science, Stats, or related field, with coursework in machine learning or artificial intelligence
+Strong programming abilities in Python (and familiarity with ML libraries like TensorFlow, PyTorch). Comfortable with data structures, algorithms, and writing clean, efficient code
+Solid understanding of machine learning fundamentals and algorithms (classification, NLP, Deep Learning). Familiarity with concepts of training, fine-tuning, and evaluating models
+Knowledge of natural language processing techniques. Understanding how large language models work and experience using or implementing NLP models
+Interest in AI agentic systems, including areas such as prompt design, tool use, workflow orchestration, multi-step reasoning, or evaluation of LLM-based systems
+Ability to break down complex problems and experiment with creative AI solutions. Eagerness to learn new technologies and frameworks quickly
+Preferred
+Previous projects or internship experience involving machine learning or AI (especially work with LLMs or NLP projects)
+Experience with ML ops or model deployment (e.g. using cloud AI services, Docker, REST APIs for model serving)
+Familiarity with concepts like reinforcement learning, prompt engineering for LLMs, or building multi-agent systems
+Experience with data preprocessing pipelines, and working with datasets relevant to language models or automation tasks
+Exposure to agent evaluation, prompt pipelines, orchestration frameworks, or AI systems that interact with external tools or APIs is a plus
+Awareness of the latest trends and research in AI/ML (new model architectures, papers, etc.), showing a passion for staying up-to-date in the field
+
+
+
+
+Responsibilities
+As AI Engineering Intern for our Competitive Intelligence team, you will help the Competitive Intelligence team members design, develop, test, fine-tune, and manage AI chatbots, agents, and apps that help make the team’s processes more automated, scalable, and intelligent
+Scale and accelerate market and competitive research
+Accelerate competitive data analysis
+Analyze and distribute competitive news with the appropriate stakeholders
+Predict competitors’ next strategic moves
+Automate the creation and upkeep of competitive Sales resources
+Challenge our competitive resources to strengthen them before sharing them with users
+Deliver contextual competitive insight to Sales teams at the right time and in the right format
+Further automate the Competitive Intelligence helpdesk responses
+As our AI Engineering Intern, you will design, build, and ship working AI-powered tools that will benefit 3,500+ Sales Representatives, support global Marketing campaigns, help refine key product roadmap decisions, keep our leadership informed of strategic market motions, and more
+You will also help us fine-tune existing AI tools
+Delivered at least 1 functioning resource creation agent
+Delivered 1 functioning resource challenging agent
+Increased the Sales support AI agent’s response accuracy over 95%
+Helped implement our Competitive Intelligence helpdesk v2
+Designed the AI-powered technical comparison table builder v2
+Delivered 1-2 other functioning projects that we defined together
+Documented how to maintain the deliverables you delivered
+In this role, you will work with our Competitive Intelligence team members, as well as key Competitive Intelligence stakeholders who use our competitive AI tools and competitive resources (Sales Representatives, Product Managers, Product Marketers, …)
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Anthropic Claude
+Agentic AI Patterns
+Retrieval-Augmented Generation (RAG)
+LLM Output Evaluation
+Version Control
+Python
+API Integration
+Data Parsing
+SQL
+Microsoft Office
+Interviewing Subject-Matter Experts
+Working with Ambiguous Requirements
+Required
+Practical experience with Anthropic Claude Chat bots, Cowork projects, Code projects, and Design projects — not just coursework but actual hands-on Claude experience
+Working knowledge of agentic/tool use patterns (function calling, RAG, basic orchestration) — doesn't need to be an expert, but shouldn't be learning what an agent is on day one
+Exposure to evaluating LLM output quality — building a test set, scoring responses, and determining whether a prompt change helped
+Exposure to version control basics, so work is recoverable and reviewable
+Python proficiency; comfortable with API integration, data parsing, and basic pipeline construction
+SQL exposure; able to read and modify a trivial transformation query
+Ability to work with ambiguous, evolving requirements and iterate quickly on a 10-week clock — this is not a spec-handed-to-you internship
+Comfortable interviewing subject-matter experts (analysts) to reverse-engineer a workflow before automating it
+Rising Junior or Senior pursuing a Bachelor's degree or a graduate student in an accredited college or university in AI engineering, Computer Science, Data Science, Information Systems, or related field
+Excellent written, verbal and communication skills
+Willingness to learn about technology
+Proficiency in Windows and Microsoft Office
+Ability to work independently with limited direction in a fast-paced environment; must be a high-energy, motivated self-starter
+Understanding and operating within the team's competitive intelligence ethics policy (code of ethics to be shared during interviews)
+
+
+
+
+
+Responsibilities
+Ship delightful experiences for our user-facing products, meticulously crafting code for browsers or server code
+Build features for the API platform that directly impact users
+Design and implement robust data pipelines (crawlers, storage, filters)
+Design and implement scalable services or infrastructure for machine learning development
+Build internal tooling (CI/CD, dev utilities) to move faster together
+Build tech writing skills through maintaining and contributing to technical documentation, both internal and external facing
+Keep up with the cutting edge and adopt new technologies to improve performance and reliability across Cohere
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+
+Machine Learning
+Natural Language Processing
+API Development
+Data Pipelines
+Infrastructure for Machine Learning Development
+CI/CD
+Required
+Please Note: To be eligible for this position, you should be currently enrolled in a post-secondary program and available for a full-time 3-6 month internship, co-op, or research work term
+
+
+
